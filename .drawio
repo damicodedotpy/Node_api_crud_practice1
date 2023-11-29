@@ -1,0 +1,44 @@
+<mxfile host="65bd71144e">
+    <diagram id="bnvdKdF2vgV2CidnLjoJ" name="Page-1">
+        <mxGraphModel dx="906" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="API REST que consuma la API &quot;JSONplaceholder&quot; y almacene la informacion obtenida en una base de datos de MongoDB a manera de informacion de usuarios ficticios" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="120" width="520" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;ol&gt;&lt;li&gt;Obtener llaves de acceso para consumo de la API &quot;JSONplaceholder&quot;&lt;/li&gt;&lt;li&gt;Crear conexion con una base de datos local de mongo&lt;/li&gt;&lt;li&gt;Crear endpoints de operaciones CRUD para la informacion obtenida&lt;/li&gt;&lt;li&gt;GET: Obtener la informacion de 10 usuarios diferentes y almacenarla dentro de la base de datos de mongo&lt;/li&gt;&lt;li&gt;POST: Realizar el envio de nueva informacion de usuario a la base de datos&lt;/li&gt;&lt;li&gt;PUT: Actualizar la inforamcion de los usuarios almacenados dentro de la base de datos&lt;/li&gt;&lt;li&gt;DELETE: Eliminar la existencia de alguno de los documentos con la informacion de un usuario&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="120" width="360" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;" parent="1" source="5" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Crear base de datos MongoDB" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="440" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="40" y="400" as="sourcePoint"/>
+                        <mxPoint x="720" y="400" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Consumir API &quot;JSONplaceholder&quot;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="560" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="8" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Almacenar informacion en base de datos" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="560" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Crear endopoints restantes" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="440" width="120" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
